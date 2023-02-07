@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+<p>{{ .Params.tabheading }}</p>
+<p>{{ .Params.date }}</p>
+
+{{ range .Pages }}
+{{ if ne .Params.flag "OFF" }}
+<p>hello</p>
+{{ end }}
+{{ end }}
+{{ end }}

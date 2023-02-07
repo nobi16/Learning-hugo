@@ -1,0 +1,18 @@
+{{ with .Params.hide_footer }}
+  <!-- No footer here! -->
+{{ else }}
+  <footer>
+    Website made by {{ .Site.Params.name }} in {{ now.Year }}
+  </footer>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+{{ end }}

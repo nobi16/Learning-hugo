@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+{{ partial "meta.html" . }}
+
+<body>
+    {{ partial "nav.html" }}
+    {{ block "main" . }}
+    {{ end }}
+    
+    <!-- {{ $best_friends := slice "pumbaa" "timon" "nala" "rafiki" }}
+    
+    <ul>
+        {{ range $best_friends }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ul> -->
+    {{ partial "footer.html" . }}
+</body>
+
+</html>
