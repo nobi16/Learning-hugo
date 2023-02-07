@@ -1,5 +1,5 @@
 ---
-title: First Blog
+title: First Blogs
 date: 2023-01-12T16:30:00+05:30
 description: hey dd
 ---
