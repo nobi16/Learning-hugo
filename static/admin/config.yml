@@ -15,12 +15,12 @@ collections:
     - {label: "Publish Date", name: "date", widget: "datetime"}
     - {label: "Body", name: "body", widget: "markdown"}
 
-- name: "pages"
-  label: "Pages"
-  files:  
-  - file: "content/about.md"
-    label: "About"
-    name: about
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+# - name: "pages"
+#   label: "Pages"
+#   files:  
+#   - file: "content/about.md"
+#     label: "About"
+#     name: about
+#     fields:
+#       - {label: "Title", name: "title", widget: "string"}
+#       - {label: "Body", name: "body", widget: "markdown"}
