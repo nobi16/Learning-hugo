@@ -4,3 +4,8 @@ title = 'My New Hugo Site'
 
 [params]
 name = 'Nobi'
+
+[permalinks]
+  # blog = '/:slug/'
+  courses = '/:title/'
+  posts = '/posts/:title'
